@@ -3,6 +3,7 @@ In this Project I have followed each and every step of a Data_Science lifecycle.
 
 #### Data Collection
 In Data Collection i extracted the all the data required for the AQI prediction by a website https://en.tutiempo.net/
+particularly for New Delhi.
 
 ##### Variable Interpretation
 
