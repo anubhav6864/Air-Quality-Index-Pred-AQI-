@@ -24,8 +24,8 @@ particularly for New Delhi.
 
 We also need PM 2.5 value, PM 2.5 values are collected from paid API, which will act as a dependent variable and all the others as independent variables.
 
-Executing the code in Plot_AQI.py we get PM 2.5 per day values for each year,We get a dependent feature
-Now we need to extract independent features from the Html, for thati have used Beautifulsoup to parse the Html data into a CSV file  which can be seen in ScrapingTableAndCombining.py file.
+Executing the code in [AQI_perDay.py](https://github.com/anubhav6864/Air-Quality-Index-Pred-AQI-/blob/main/AQI_perDay.py) we get PM 2.5 per day values for each year,We get a dependent feature
+Now we need to extract independent features from the Html, for thati have used Beautifulsoup to parse the Html data into a CSV file  which can be seen in [ScrapingTableAndCombining.py](https://github.com/anubhav6864/Air-Quality-Index-Pred-AQI-/blob/main/ScrapingTableAndCombining.py) file.
 After doing the above i added the PM 2.5 value to the CSV files and then combined all the years data into a single CSV so that we can get our final data which is to be used in the prediction.
 
 
