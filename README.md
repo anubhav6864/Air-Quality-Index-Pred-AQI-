@@ -21,3 +21,11 @@ particularly for New Delhi.
 * SN	Snow indicator (In the monthly average, total days that snowed)
 * TS	Indicates whether there storm (In the monthly average, Total days with thunderstorm)
 * FG	Indicates whether there was fog (In the monthly average, Total days with fog)
+
+We also need PM 2.5 value, PM 2.5 values are collected from paid API, which will act as a dependent variable and all the others as independent variables.
+
+Executing the code in Plot_AQI.py we get PM 2.5 per day values for each year,We get a dependent feature
+Now we need to extract independent features from the Html, for thati have used Beautifulsoup to parse the Html data into a CSV file  which can be seen in ScrapingTableAndCombining.py file.
+After doing the above i added the PM 2.5 value to the CSV files and then combined all the years data into a single CSV so that we can get our final data which is to be used in the prediction.
+
+
