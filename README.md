@@ -28,4 +28,10 @@ Executing the code in [AQI_perDay.py](https://github.com/anubhav6864/Air-Quality
 Now we need to extract independent features from the Html, for thati have used Beautifulsoup to parse the Html data into a CSV file  which can be seen in [ScrapingTableAndCombining.py](https://github.com/anubhav6864/Air-Quality-Index-Pred-AQI-/blob/main/ScrapingTableAndCombining.py) file.
 After doing the above i added the PM 2.5 value to the CSV files and then combined all the years data into a single CSV so that we can get our final data which is to be used in the prediction.
 
+* After the above process i used Linear Regression and it's Regularization techniques such as Ridge and Lasso.
+* Then i used DecisionTree Regressor
+* RandomForest Regressor
+* XGBoost
+t* ANN
 
+**NOTE The data was scraped and was not availabel in large quatity that's why not giving satisfactory results even after using the above mentioned SOTA algo.**
